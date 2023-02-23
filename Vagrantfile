@@ -19,6 +19,7 @@ Vagrant.configure("2") do |config|
   # `vagrant box outdated`. This is not recommended.
   # config.vm.box_check_update = false
 config.vm.synced_folder ".", "/vagrant", type: "virtualbox"
+config.vm.provision "shell", path: "setup.sh", privileged: false
   # Create a forwarded port mapping which allows access to a specific port
   # within the machine from a port on the host machine. In the example below,
   # accessing "localhost:8080" will access port 80 on the guest machine.
@@ -33,7 +34,9 @@ config.vm.synced_folder ".", "/vagrant", type: "virtualbox"
   # Create a private network, which allows host-only access to the machine
   # using a specific IP.
   # config.vm.network "private_network", ip: "192.168.33.10"
-
+config.vm.network(
+"forwarded_port", guest: 8000, host: 8000, host_ip: "127.0.0.1"
+)
   # Create a public network, which generally matched to bridged network.
   # Bridged networks make the machine appear as another physical device on
   # your network.

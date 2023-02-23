@@ -12,6 +12,9 @@ __pycache__/
 # Vagrant
 .vagrant
 
+# output from nohup
+nohup.out
+
 build/
 develop-eggs/
 dist/
