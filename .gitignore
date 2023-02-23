@@ -8,6 +8,10 @@ __pycache__/
 
 # Distribution / packaging
 .Python
+
+# Vagrant
+.vagrant
+
 build/
 develop-eggs/
 dist/
