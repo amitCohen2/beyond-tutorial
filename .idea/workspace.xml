@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="928ddf65-3009-48cc-89a8-384205a695db" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/msgboard/migrations/0002_test_data.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/beyond_tutorial/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/beyond_tutorial/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msgboard/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/msgboard/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msgboard/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/msgboard/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msgboard/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/msgboard/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,5 +56,15 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/msgboard/tests.py</url>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
