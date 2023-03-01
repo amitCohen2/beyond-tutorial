@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="928ddf65-3009-48cc-89a8-384205a695db" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/msgboard/forms.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/beyond_tutorial/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/beyond_tutorial/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msgboard/templates/msgboard/board.html" beforeDir="false" afterPath="$PROJECT_DIR$/msgboard/templates/msgboard/board.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/msgboard/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/msgboard/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
